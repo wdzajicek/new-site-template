@@ -1,0 +1,47 @@
+title: "Wesley Zajicek"
+collections:
+  posts:
+    output: false
+    _hide_content: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    title: ''
+    permalink: /:categories/:title/
+    baseurl: ../../../
+    categories: news
+permalink: pretty
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  My portfolio site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+# include:
+#   - "_pages"
+#   - "_posts"
+
+future: true
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - liquid-md5
+
+exclude:
+  - "gulpfile.js"
+  - "node_modules"
+  - "npm-debug.log"
+  - "package.json"
+  - "package-lock.json"
+  - "README.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "gulpconfig.yml"
+  - "/docs/"
+  - "yarn.lock"
+  - "/assets/adobe/"
