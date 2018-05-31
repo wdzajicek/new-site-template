@@ -11,7 +11,7 @@
 	- Gulp - `$ npm install --global gulp-cli` - mac users may need sudo
 
 ## Installation
-	$ git clone https://someurlnotyetknown
+	$ git clone https://github.com/wdzajicek/new-site-template.git
 	$ cd athletics-mockup
 	$ npm install		// May need to prefix command with sudo (if not using NVM)
 	$ bundle install
